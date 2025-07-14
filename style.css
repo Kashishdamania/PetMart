@@ -1,0 +1,126 @@
+/* Global Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #90ccbf;
+}
+
+/* Main Cart Page Layout */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+    align-items: flex-start;
+    padding-top: 100px; /* Offset for fixed navbar */
+}
+
+/* Left Cart Items Section */
+.cart-section {
+    flex: 3;
+}
+
+.cart-item {
+    display: flex;
+    background: #ffffffcc;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.cart-item img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.item-details {
+    position: relative;
+    flex: 1;
+}
+
+.item-details h3 {
+    margin-top: 0;
+}
+
+.item-details p {
+    margin: 5px 0;
+}
+
+.item-details button {
+    padding: 3px 8px;
+    margin: 0 5px;
+    background-color: #A1C3B5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Right Summary Section */
+.summary-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.bill-summary {
+    background-color: #ffffffcc;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-top: 90px;
+}
+
+.bill-summary h2 {
+    margin-top: 0;
+}
+
+.bill-summary hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.bill-summary label {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.checkout-btn {
+    background-color: #F25757;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* Quantity Box Styling - Aligned to right */
+.quantity-box {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #f2f2f2;
+    padding: 4px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.quantity-box button {
+    background-color: #A1C3B5;
+    border: none;
+    border-radius: 4px;
+    padding: 3px 8px;
+    cursor: pointer;
+}
